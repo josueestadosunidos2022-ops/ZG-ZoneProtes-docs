@@ -2,45 +2,39 @@
 
 ## English
 
-Vertical block protections enforced by the server. Minecraft 1.20.1 / Forge 47.x.
+Vertical land protection enforced by the server, with seven original ZG block designs, team access, a TOML catalog, automation border checks and anti dupe guards. For Minecraft 1.20.1, Forge 47.x, Java 17.
 
 ### Installation
 
-Install the labeled server JAR on the server and its compatible client JAR on players' clients. Both files belong to the same CurseForge project. The two version numbers may differ; follow the stated pair, never mix releases. Required mod dependencies shown by current source metadata: **ZoneCore**. Check the dependency version range of the exact uploaded file before installation.
+Install zonaprotes-server-2.9.1-protected.jar and ZG ZoneCore 2.1.3 or newer on the dedicated server. Install zonaprotes-client-2.9.1-protected.jar on each player's client. The two JARs belong to this one CurseForge project; install only the file for each side. Both use protocol split-1. The client contains visuals and minimal registry, while the server enforces claims. Back up the world and config/zonaprotes before updating.
 
-### Configuration
+### Features
 
-Edit generated TOML files while the server or game is stopped unless a documented reload command is available. Back up persistent data before updates.
+- A configured protection block covers the whole world height. The TOML size is the reach in each horizontal direction from the anchor: size 26 reaches 26 blocks on every side.
+- Owners can invite members, promote co owners, set local player access and allow or block audited machines in their claim. Only owners, co owners and staff may remove the anchor.
+- /protes ver <name|UUID> lists claims and /protes ver <name|UUID> <number> travels to a safe point near one. Administrators can reload and synchronize the catalog.
+- ZoneClans wars, ZoneMap overlays, ZoneEssentials rollback and ZoneLevelUp arena checks use public claim interfaces. Create fixed machinery, Botania fluid consumers and DivineRPG Rive have optional guards. Mobile Create contraptions are not authorized by the fixed machine rule.
 
-| Config file | Use |
-|---|---|
-| `zonaprotes/protecciones.toml` | Verify the exact generated path and options for the selected release. |
-| `zonaprotes-common.toml` | Verify the exact generated path and options for the selected release. |
-| `zonaprotes/protecciones/creadas.toml` | Verify the exact generated path and options for the selected release. |
-
-See [configuration reference](CONFIGURATION.md) for keys detected in source and [release compatibility](RELEASES.md) for version-pair rules.
+Read [TOML configuration and commands](CONFIGURATION.md) and [release compatibility](RELEASES.md). Strict automation switches may break storage even for the owner; a full third party modpack needs its own tests.
 
 ## Español
 
-Protecciones verticales basadas en bloques aplicadas por el servidor. Minecraft 1.20.1 / Forge 47.x.
+Protecciones verticales aplicadas por el servidor, con siete diseños ZG originales, acceso por equipo, catálogo TOML, control en fronteras de automatización y defensas contra duplicación. Para Minecraft 1.20.1, Forge 47.x, Java 17.
 
 ### Instalación
 
-Instala el JAR marcado servidor en el servidor y su JAR cliente compatible en los clientes. Ambos archivos pertenecen al mismo proyecto CurseForge. Los números de versión pueden diferir; respeta la pareja indicada y no mezcles entregas. Dependencias obligatorias indicadas por los metadatos actuales: **ZoneCore**. Comprueba el rango de versión del archivo exacto que instales.
+Instala zonaprotes-server-2.9.1-protected.jar y ZG ZoneCore 2.1.3 o posterior en el servidor dedicado. Instala zonaprotes-client-2.9.1-protected.jar en cada cliente. Ambos JAR pertenecen a este único proyecto CurseForge; instala solo el archivo de cada lado. Ambos usan el protocolo split-1. El cliente contiene recursos visuales y registro mínimo; el servidor aplica las protecciones. Respalda el mundo y config/zonaprotes antes de actualizar.
 
-### Configuración
+### Funciones
 
-Edita los TOML generados con el servidor o juego detenido, salvo que exista un comando de recarga documentado. Respalda los datos persistentes antes de actualizar.
+- El bloque protege toda la altura del mundo. El tamaño TOML es el alcance horizontal desde el ancla en cada dirección: 26 alcanza 26 bloques por cada lado.
+- El dueño invita miembros, asciende codueños y establece acceso local y permisos de máquinas auditadas. Solo dueño, codueños y personal pueden retirar el ancla.
+- /protes ver <nombre|UUID> lista protecciones y /protes ver <nombre|UUID> <numero> viaja a una posición segura próxima. El administrador puede recargar y sincronizar el catálogo.
+- ZoneClans, ZoneMap, ZoneEssentials y ZoneLevelUp usan interfaces públicas. Las máquinas fijas Create, consumidores de fluidos Botania y Rive de DivineRPG tienen controles opcionales. La regla de máquina fija no autoriza contraptions móviles de Create.
 
-| Archivo de configuración | Uso |
-|---|---|
-| `zonaprotes/protecciones.toml` | Comprueba la ruta y opciones generadas de la entrega elegida. |
-| `zonaprotes-common.toml` | Comprueba la ruta y opciones generadas de la entrega elegida. |
-| `zonaprotes/protecciones/creadas.toml` | Comprueba la ruta y opciones generadas de la entrega elegida. |
-
-Consulta la [referencia de configuración](CONFIGURATION.md) para claves detectadas en el código y la [compatibilidad de entregas](RELEASES.md) para las parejas de versiones.
+Consulta [configuración y comandos](CONFIGURATION.md) y [compatibilidad de versiones](RELEASES.md). Los ajustes estrictos pueden romper el almacenaje incluso al dueño; un modpack completo necesita pruebas propias.
 
 ## Ownership / Titularidad
 
-Documentation and original ZONE visual assets © Elgochogms. This repository contains documentation and a project avatar only; it does not distribute mod source code, private mappings, server secrets or production configuration.
+Copyright © 2026 Elgochogms. New 2.9.1 binaries: All Rights Reserved. Earlier releases retain their original license terms. This repository contains documentation and the original avatar only; no mod source, private maps, world data or secrets. Obfuscation raises the effort of inspecting Java bytecode but cannot make decompilation impossible.
 
