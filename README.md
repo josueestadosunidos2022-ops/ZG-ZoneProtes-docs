@@ -1,12 +1,18 @@
 # ZG ZoneProtes
 
+## Update / Actualización — 2026-10-17
+
+Selected version / Versión seleccionada: **server 2.10.4 / client 2.10.4**. New file availability depends on CurseForge approval / La disponibilidad de los archivos nuevos depende de su aprobación en CurseForge.
+
+See [changes, exact files and installation](UPDATES-2026-10-17.md) / Consulta [cambios, archivos e instalación](UPDATES-2026-10-17.md). Preserve the world and TOML files / Conserva mundo y TOML.
+
 ## English
 
 Vertical land protection enforced by the server, with seven original ZG block designs, team access, a TOML catalog, automation border checks and anti dupe guards. For Minecraft 1.20.1, Forge 47.x, Java 17.
 
 ### Installation
 
-Install zonaprotes-server-2.9.1-protected.jar and ZG ZoneCore 2.1.3 or newer on the dedicated server. Install zonaprotes-client-2.9.1-protected.jar on each player's client. The two JARs belong to this one CurseForge project; install only the file for each side. Both use protocol split-1. The client contains visuals and minimal registry, while the server enforces claims. Back up the world and config/zonaprotes before updating.
+Install zonaprotes-server-2.10.4-protected.jar and ZG ZoneCore 2.1.3 or newer on the dedicated server. Install zonaprotes-client-2.10.4-protected.jar on each player's client. The two JARs belong to this one CurseForge project; install only the file for each side. Both use protocol split-1. The client contains visuals and minimal registry, while the server enforces claims. Back up the world and config/zonaprotes before updating.
 
 ### Features
 
@@ -23,7 +29,7 @@ Protecciones verticales aplicadas por el servidor, con siete diseños ZG origina
 
 ### Instalación
 
-Instala zonaprotes-server-2.9.1-protected.jar y ZG ZoneCore 2.1.3 o posterior en el servidor dedicado. Instala zonaprotes-client-2.9.1-protected.jar en cada cliente. Ambos JAR pertenecen a este único proyecto CurseForge; instala solo el archivo de cada lado. Ambos usan el protocolo split-1. El cliente contiene recursos visuales y registro mínimo; el servidor aplica las protecciones. Respalda el mundo y config/zonaprotes antes de actualizar.
+Instala zonaprotes-server-2.10.4-protected.jar y ZG ZoneCore 2.1.3 o posterior en el servidor dedicado. Instala zonaprotes-client-2.10.4-protected.jar en cada cliente. Ambos JAR pertenecen a este único proyecto CurseForge; instala solo el archivo de cada lado. Ambos usan el protocolo split-1. El cliente contiene recursos visuales y registro mínimo; el servidor aplica las protecciones. Respalda el mundo y config/zonaprotes antes de actualizar.
 
 ### Funciones
 
@@ -36,5 +42,5 @@ Consulta [configuración y comandos](CONFIGURATION.md) y [compatibilidad de vers
 
 ## Ownership / Titularidad
 
-Copyright © 2026 Elgochogms. New 2.9.1 binaries: All Rights Reserved. Earlier releases retain their original license terms. This repository contains documentation and the original avatar only; no mod source, private maps, world data or secrets. Obfuscation raises the effort of inspecting Java bytecode but cannot make decompilation impossible.
+Copyright © 2026 Elgochogms. New 2.10.4 binaries: All Rights Reserved. Earlier releases retain their original license terms. This repository contains documentation and the original avatar only; no mod source, private maps, world data or secrets. Obfuscation raises the effort of inspecting Java bytecode but cannot make decompilation impossible.
 
