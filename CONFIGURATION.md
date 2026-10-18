@@ -1,4 +1,4 @@
-# ZG ZoneProtes — TOML configuration reference
+# ZoneProtes — TOML configuration reference
 
 This guide describes **server 2.9.1 / client 2.9.1**. ForgeConfigSpec keys below are literal source defaults. The server generates the final TOML. Never commit real world data or server secrets. / Esta guía corresponde a **servidor 2.9.1 / cliente 2.9.1**. Las claves siguientes son los valores iniciales declarados; el servidor genera el TOML definitivo. Nunca publiques datos reales del mundo o secretos.
 
