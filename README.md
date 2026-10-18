@@ -1,4 +1,4 @@
-# ZG ZoneProtes
+# ZoneProtes
 
 ## Update / Actualización — 2026-10-17
 
@@ -8,11 +8,11 @@ See [changes, exact files and installation](UPDATES-2026-10-17.md) / Consulta [c
 
 ## English
 
-Vertical land protection enforced by the server, with seven original ZG block designs, team access, a TOML catalog, automation border checks and anti dupe guards. For Minecraft 1.20.1, Forge 47.x, Java 17.
+Vertical land protection enforced by the server, with seven original block designs, team access, a TOML catalog, automation border checks and anti dupe guards. For Minecraft 1.20.1, Forge 47.x, Java 17.
 
 ### Installation
 
-Install zonaprotes-server-2.10.4-protected.jar and ZG ZoneCore 2.1.3 or newer on the dedicated server. Install zonaprotes-client-2.10.4-protected.jar on each player's client. The two JARs belong to this one CurseForge project; install only the file for each side. Both use protocol split-1. The client contains visuals and minimal registry, while the server enforces claims. Back up the world and config/zonaprotes before updating.
+Install zonaprotes-server-2.10.4-protected.jar and ZoneCore 2.1.3 or newer on the dedicated server. Install zonaprotes-client-2.10.4-protected.jar on each player's client. The two JARs belong to this one CurseForge project; install only the file for each side. Both use protocol split-1. The client contains visuals and minimal registry, while the server enforces claims. Back up the world and config/zonaprotes before updating.
 
 ### Features
 
@@ -25,11 +25,11 @@ Read [TOML configuration and commands](CONFIGURATION.md) and [release compatibil
 
 ## Español
 
-Protecciones verticales aplicadas por el servidor, con siete diseños ZG originales, acceso por equipo, catálogo TOML, control en fronteras de automatización y defensas contra duplicación. Para Minecraft 1.20.1, Forge 47.x, Java 17.
+Protecciones verticales aplicadas por el servidor, con siete diseños originales, acceso por equipo, catálogo TOML, control en fronteras de automatización y defensas contra duplicación. Para Minecraft 1.20.1, Forge 47.x, Java 17.
 
 ### Instalación
 
-Instala zonaprotes-server-2.10.4-protected.jar y ZG ZoneCore 2.1.3 o posterior en el servidor dedicado. Instala zonaprotes-client-2.10.4-protected.jar en cada cliente. Ambos JAR pertenecen a este único proyecto CurseForge; instala solo el archivo de cada lado. Ambos usan el protocolo split-1. El cliente contiene recursos visuales y registro mínimo; el servidor aplica las protecciones. Respalda el mundo y config/zonaprotes antes de actualizar.
+Instala zonaprotes-server-2.10.4-protected.jar y ZoneCore 2.1.3 o posterior en el servidor dedicado. Instala zonaprotes-client-2.10.4-protected.jar en cada cliente. Ambos JAR pertenecen a este único proyecto CurseForge; instala solo el archivo de cada lado. Ambos usan el protocolo split-1. El cliente contiene recursos visuales y registro mínimo; el servidor aplica las protecciones. Respalda el mundo y config/zonaprotes antes de actualizar.
 
 ### Funciones
 
