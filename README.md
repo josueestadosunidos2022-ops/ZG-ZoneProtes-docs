@@ -1,5 +1,26 @@
 # ZoneProtes
 
+## Current update / Actualización actual — 2026-10-23
+
+Protected public builds prepared for Minecraft 1.20.1 / Forge 47.4.x / Java 17. Files become available after CurseForge approval. / Compilaciones públicas protegidas; los archivos estarán disponibles cuando CurseForge los apruebe.
+
+Updates vertical land claims to 2.11.0 with per-region flags and the current TPS performance revision (r2). Keeps existing claims, owners, members and TOML configuration. Server release; the existing 2.10.4 client remains the compatible companion.
+
+| Side / Lado | Version / Versión | File / Archivo |
+|---|---|---|
+| server | 2.11.0 | `zonaprotes-server-2.11.0-perf-r2-protected.jar` |
+| client | 2.10.4 (compatible existing release / versión existente compatible) | `zonaprotes-client-2.10.4-protected.jar` |
+
+Install only the JAR for each side; never put both side JARs in one mods folder. Back up the world and preserve existing player data and TOML files. / Instala solo el JAR correspondiente a cada lado; conserva mundo, progreso y TOML existentes.
+
+**server dependencies / dependencias:** ZoneCore: Required Dependency ([2.1.3,)).
+
+Archive checks and isolated dedicated-server startup do not certify graphical gameplay, real multiplayer or the full modpack. / Las verificaciones de archivo y arranque aislado no certifican cliente gráfico, multijugador real ni modpack completo.
+
+## Earlier reference / Referencia anterior
+
+The following reference predates this update. Use the current versions and side instructions above when they differ. / La referencia siguiente es anterior; prevalecen las versiones y las indicaciones de lado de esta actualización.
+
 ## Update / Actualización — 2026-10-17
 
 Selected version / Versión seleccionada: **server 2.10.4 / client 2.10.4**. New file availability depends on CurseForge approval / La disponibilidad de los archivos nuevos depende de su aprobación en CurseForge.
@@ -43,4 +64,3 @@ Consulta [configuración y comandos](CONFIGURATION.md) y [compatibilidad de vers
 ## Ownership / Titularidad
 
 Copyright © 2026 Elgochogms. New 2.10.4 binaries: All Rights Reserved. Earlier releases retain their original license terms. This repository contains documentation and the original avatar only; no mod source, private maps, world data or secrets. Obfuscation raises the effort of inspecting Java bytecode but cannot make decompilation impossible.
-
